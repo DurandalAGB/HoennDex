@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(1243956.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.pokedex {
+  position: relative;
+  width: 960px;
+  height: 480px;
+  background-color: red;
+  border-radius: 120px 0 0 120px;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.circulo {
+  position: absolute;
+  width: 216px;
+  height: 216px;
+  background-color: white;
+  border: 10px solid black;
+  border-radius: 50%;
+  left: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circuloInterno {
+  width: 120px;
+  height: 120px;
+  background-color: #2196F3;
+  border-radius: 50%;
+  border: 4px solid black;
+  z-index: 2;
+}
+
+.lineaHorizontal {
+  position: absolute;
+  background-color: black;
+  z-index: 1;
+}
+
+.lineaHorizontal {
+  width: 216px;
+  height: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.botonVerde {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-color: #4CAF50;
+  border-radius: 50%;
+  bottom: 48px;
+  left: 48px;
+}
+
+.contenedorPantalla {
+  width: 480px;
+  height: 288px;
+  background-color: #bbb;
+  margin-left: 240px;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pantalla {
+  width: 432px;
+  height: 240px;
+  background-color: black;
+}
+
+.botonesBlancos {
+  position: absolute;
+  display: flex;
+  gap: 12px;
+  bottom: 36px;
+  right: 48px;
+}
+
+.botonBlanco {
+  width: 48px;
+  height: 24px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.barraDerecha {
+  position: absolute;
+  right: -12px;
+  width: 48px;
+  height: 100%;
+  background-color: #bbb;
+  border: 4px solid black;
+  border-radius: 0 20px 20px 0;
+}
